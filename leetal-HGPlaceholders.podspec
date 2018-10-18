@@ -18,15 +18,14 @@ s.summary          = 'Nice library to show placeholders and Empty States for any
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-A powerful framework allows you to show easily different placeholders (no resulats, loading, error occured, ...) and to create Empty States in your table view / collection view, fully customisable
+A powerful framework allows you to show easily different placeholders (no results, loading, error occured, ...) and to create mpty states in your table view / collection view with fully customizable layout.
 DESC
 
 s.homepage         = 'https://github.com/HamzaGhazouani/HGPlaceholders'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'HamzaGhazouani' => 'hamza.ghazouani@gmail.com' }
-s.source           = { :git => 'https://github.com/HamzaGhazouani/HGPlaceholders.git', :tag => s.version.to_s }
-s.social_media_url = 'https://twitter.com/GhazouaniHamza'
+s.author           = { 'HamzaGhazouani' => 'hamza.ghazouani@gmail.com', 'leetal' => 'widerbergaren@gmail.com' }
+s.source           = { :git => 'https://github.com/leetal/HGPlaceholders.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 

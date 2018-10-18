@@ -97,11 +97,20 @@ open class TableView: UITableView {
      * Keeps user seperatorStyle instead of overriding with system default
      * The default value is UITableViewCellSeparatorStyle.singleLine
      */
-    open override var separatorStyle: UITableViewCellSeparatorStyle {
+    #if swift(>=4.2)
+    open override var separatorStyle: UITableViewCell.SeparatorStyle {
         didSet {
             defaultSeparatorStyle = separatorStyle
         }
     }
+    #elseif swift(>=3.0)
+    open override var separatorStyle: UITableViewCellSeparatorStyle {
+        didSet {
+        defaultSeparatorStyle = separatorStyle
+        }
+    }
+    #endif
+    
     
     /**
      * A Boolean value that determines whether bouncing always occurs when the placeholder is shown.
@@ -118,7 +127,11 @@ open class TableView: UITableView {
     internal weak var defaultDelegate: UITableViewDelegate?
     
     /// The defaultSeparatorStyle is used to save the tableview separator style, because, when you switch to a placeholder, is changed to `.none`
+    #if swift(>=4.2)
+    fileprivate var defaultSeparatorStyle: UITableViewCell.SeparatorStyle!
+    #elseif swift(>=3.0)
     fileprivate var defaultSeparatorStyle: UITableViewCellSeparatorStyle!
+    #endif
     
     /// The defaultAlwaysBounceVertical is used to save the tableview bouncing setup, because, when you switch to a placeholder, the vertical bounce is disabled
     fileprivate var defaultAlwaysBounceVertical: Bool!
@@ -153,11 +166,20 @@ open class TableView: UITableView {
      
      - returns: Returns an initialized TableView object, or nil if the object could not be successfully initialized.
      */
-    override public init(frame: CGRect, style: UITableViewStyle) {
+    #if swift(>=4.2)
+    override public init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         
         setup()
     }
+    #elseif swift(>=3.0)
+    override public init(frame: CGRect, style: UITableViewStyle) {
+        super.init(frame: frame, style: style)
+    
+        setup()
+    }
+    #endif
+    
     
     /**
      *  Config the table view to be able to show placeholders

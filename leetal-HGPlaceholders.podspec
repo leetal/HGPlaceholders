@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = 'HGPlaceholders'
+s.name             = 'leetal-HGPlaceholders'
 s.version          = '0.3.0'
 s.summary          = 'Nice library to show placeholders and Empty States for any UITableView/UICollectionView in your project'
 

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7C6B98975D32B0FB8DA03BE716BA1F77"
-               BuildableName = "HGPlaceholders.framework"
-               BlueprintName = "HGPlaceholders"
+               BlueprintIdentifier = "E5FD9612BCF18C47E8E75D794DCDD458"
+               BuildableName = "leetal_HGPlaceholders.framework"
+               BlueprintName = "leetal-HGPlaceholders"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7C6B98975D32B0FB8DA03BE716BA1F77"
-            BuildableName = "HGPlaceholders.framework"
-            BlueprintName = "HGPlaceholders"
+            BlueprintIdentifier = "E5FD9612BCF18C47E8E75D794DCDD458"
+            BuildableName = "leetal_HGPlaceholders.framework"
+            BlueprintName = "leetal-HGPlaceholders"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7C6B98975D32B0FB8DA03BE716BA1F77"
-            BuildableName = "HGPlaceholders.framework"
-            BlueprintName = "HGPlaceholders"
+            BlueprintIdentifier = "E5FD9612BCF18C47E8E75D794DCDD458"
+            BuildableName = "leetal_HGPlaceholders.framework"
+            BlueprintName = "leetal-HGPlaceholders"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

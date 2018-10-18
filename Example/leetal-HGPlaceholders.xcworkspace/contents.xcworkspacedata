@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/leetal/XMReality/HGPlaceholders/Example/leetal-HGPlaceholders.xcodeproj">
+      location = "group:leetal-HGPlaceholders.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

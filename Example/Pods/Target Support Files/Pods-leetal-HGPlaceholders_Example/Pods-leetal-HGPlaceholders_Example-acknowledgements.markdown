@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## HGPlaceholders
+## leetal-HGPlaceholders
 
 Copyright (c) 2017 HamzaGhazouani <hamza.ghazouani@gmail.com>
 

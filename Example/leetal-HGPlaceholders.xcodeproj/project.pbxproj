@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C23D78A6B10B1E596EE1E9 /* Pods_leetal_HGPlaceholders_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5864C37FAFA3BE38CD62A /* Pods_leetal_HGPlaceholders_Tests.framework */; };
 		36CD84453BA28A63C2D1E5F2 /* Pods_HGPlaceholders_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2F2F33413967C3AB72E3D8 /* Pods_HGPlaceholders_Example.framework */; };
+		536A830BAD21ADAED8132380 /* Pods_leetal_HGPlaceholders_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3A017F2C7B42659377F210 /* Pods_leetal_HGPlaceholders_Example.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7ADA68581F28F0A800D1C6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA68491F28F0A800D1C6E5 /* AppDelegate.swift */; };
 		7ADA68591F28F0A800D1C6E5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA684B1F28F0A800D1C6E5 /* CollectionViewController.swift */; };
@@ -35,14 +37,18 @@
 /* Begin PBXFileReference section */
 		078B3A00236AA8566A1BDE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		089FFFAA5455B1FAC176F3A6 /* Pods-HGPlaceholders_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPlaceholders_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGPlaceholders_Tests/Pods-HGPlaceholders_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0913B562CE0DD4319C2FEC31 /* HGPlaceholders.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGPlaceholders.podspec; path = ../HGPlaceholders.podspec; sourceTree = "<group>"; };
+		0913B562CE0DD4319C2FEC31 /* leetal-HGPlaceholders.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "leetal-HGPlaceholders.podspec"; path = "../leetal-HGPlaceholders.podspec"; sourceTree = "<group>"; };
+		1F3A017F2C7B42659377F210 /* Pods_leetal_HGPlaceholders_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_leetal_HGPlaceholders_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A1B8FCCEA227BE107C52C5 /* Pods-leetal-HGPlaceholders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetal-HGPlaceholders_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leetal-HGPlaceholders_Tests/Pods-leetal-HGPlaceholders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B777433CD833A512E84DFED /* Pods-leetal-HGPlaceholders_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetal-HGPlaceholders_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leetal-HGPlaceholders_Example/Pods-leetal-HGPlaceholders_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		576F9853BBED6C018D85C27A /* Pods-HGPlaceholders_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPlaceholders_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGPlaceholders_Example/Pods-HGPlaceholders_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* HGPlaceholders_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGPlaceholders_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACE51AFB9204008FA782 /* HGPlaceholders_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGPlaceholders_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* leetal-HGPlaceholders_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leetal-HGPlaceholders_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* leetal-HGPlaceholders_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leetal-HGPlaceholders_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		665F8E8E336FB2C3FF9CC5BB /* Pods-HGPlaceholders_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPlaceholders_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGPlaceholders_Example/Pods-HGPlaceholders_Example.release.xcconfig"; sourceTree = "<group>"; };
 		689E591B770DF34951C60BD7 /* Pods_HGPlaceholders_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGPlaceholders_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C519B976C4AA82BC97D071C /* Pods-leetal-HGPlaceholders_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetal-HGPlaceholders_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-leetal-HGPlaceholders_Example/Pods-leetal-HGPlaceholders_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A6BB8D21F4D726A008F1F4D /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		7ADA68491F28F0A800D1C6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ADA684B1F28F0A800D1C6E5 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +64,8 @@
 		980B22E971009A9561037888 /* Pods-HGPlaceholders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPlaceholders_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGPlaceholders_Tests/Pods-HGPlaceholders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A774175CBC10EE8D6340ED5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA2F2F33413967C3AB72E3D8 /* Pods_HGPlaceholders_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGPlaceholders_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD5864C37FAFA3BE38CD62A /* Pods_leetal_HGPlaceholders_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_leetal_HGPlaceholders_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79EA594EFF1194C5EBF8A33 /* Pods-leetal-HGPlaceholders_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetal-HGPlaceholders_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-leetal-HGPlaceholders_Tests/Pods-leetal-HGPlaceholders_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36CD84453BA28A63C2D1E5F2 /* Pods_HGPlaceholders_Example.framework in Frameworks */,
+				536A830BAD21ADAED8132380 /* Pods_leetal_HGPlaceholders_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F22AA1D43642BE4EDD06C3 /* Pods_HGPlaceholders_Tests.framework in Frameworks */,
+				20C23D78A6B10B1E596EE1E9 /* Pods_leetal_HGPlaceholders_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +105,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* HGPlaceholders_Example.app */,
-				607FACE51AFB9204008FA782 /* HGPlaceholders_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* leetal-HGPlaceholders_Example.app */,
+				607FACE51AFB9204008FA782 /* leetal-HGPlaceholders_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +153,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0913B562CE0DD4319C2FEC31 /* HGPlaceholders.podspec */,
+				0913B562CE0DD4319C2FEC31 /* leetal-HGPlaceholders.podspec */,
 				7A6BB8D21F4D726A008F1F4D /* CHANGELOG.md */,
 				078B3A00236AA8566A1BDE71 /* README.md */,
 				9A774175CBC10EE8D6340ED5 /* LICENSE */,
@@ -195,6 +205,10 @@
 				665F8E8E336FB2C3FF9CC5BB /* Pods-HGPlaceholders_Example.release.xcconfig */,
 				980B22E971009A9561037888 /* Pods-HGPlaceholders_Tests.debug.xcconfig */,
 				089FFFAA5455B1FAC176F3A6 /* Pods-HGPlaceholders_Tests.release.xcconfig */,
+				4B777433CD833A512E84DFED /* Pods-leetal-HGPlaceholders_Example.debug.xcconfig */,
+				6C519B976C4AA82BC97D071C /* Pods-leetal-HGPlaceholders_Example.release.xcconfig */,
+				38A1B8FCCEA227BE107C52C5 /* Pods-leetal-HGPlaceholders_Tests.debug.xcconfig */,
+				D79EA594EFF1194C5EBF8A33 /* Pods-leetal-HGPlaceholders_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -204,6 +218,8 @@
 			children = (
 				CA2F2F33413967C3AB72E3D8 /* Pods_HGPlaceholders_Example.framework */,
 				689E591B770DF34951C60BD7 /* Pods_HGPlaceholders_Tests.framework */,
+				1F3A017F2C7B42659377F210 /* Pods_leetal_HGPlaceholders_Example.framework */,
+				CFD5864C37FAFA3BE38CD62A /* Pods_leetal_HGPlaceholders_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,45 +227,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* HGPlaceholders_Example */ = {
+		607FACCF1AFB9204008FA782 /* leetal-HGPlaceholders_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HGPlaceholders_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "leetal-HGPlaceholders_Example" */;
 			buildPhases = (
 				56F2DEA237F963285647FFF2 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				3BC3C3EDFF8C95E62DA48A1B /* [CP] Embed Pods Frameworks */,
-				8BE1B951443507A75FF43972 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HGPlaceholders_Example;
+			name = "leetal-HGPlaceholders_Example";
 			productName = HGPlaceholders;
-			productReference = 607FACD01AFB9204008FA782 /* HGPlaceholders_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* leetal-HGPlaceholders_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* HGPlaceholders_Tests */ = {
+		607FACE41AFB9204008FA782 /* leetal-HGPlaceholders_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HGPlaceholders_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "leetal-HGPlaceholders_Tests" */;
 			buildPhases = (
 				FB6F592496079CAC751605D0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				7996B70E7F9374F121E7DC4F /* [CP] Embed Pods Frameworks */,
-				1C097E570B247FEA002C26D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = HGPlaceholders_Tests;
+			name = "leetal-HGPlaceholders_Tests";
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* HGPlaceholders_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* leetal-HGPlaceholders_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HGPlaceholders" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "leetal-HGPlaceholders" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -288,8 +301,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* HGPlaceholders_Example */,
-				607FACE41AFB9204008FA782 /* HGPlaceholders_Tests */,
+				607FACCF1AFB9204008FA782 /* leetal-HGPlaceholders_Example */,
+				607FACE41AFB9204008FA782 /* leetal-HGPlaceholders_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,37 +329,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C097E570B247FEA002C26D0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGPlaceholders_Tests/Pods-HGPlaceholders_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3BC3C3EDFF8C95E62DA48A1B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HGPlaceholders_Example/Pods-HGPlaceholders_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HGPlaceholders/HGPlaceholders.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-leetal-HGPlaceholders_Example/Pods-leetal-HGPlaceholders_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/leetal-HGPlaceholders/leetal_HGPlaceholders.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGPlaceholders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leetal_HGPlaceholders.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGPlaceholders_Example/Pods-HGPlaceholders_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leetal-HGPlaceholders_Example/Pods-leetal-HGPlaceholders_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		56F2DEA237F963285647FFF2 /* [CP] Check Pods Manifest.lock */ = {
@@ -360,41 +358,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HGPlaceholders_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-leetal-HGPlaceholders_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7996B70E7F9374F121E7DC4F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGPlaceholders_Tests/Pods-HGPlaceholders_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8BE1B951443507A75FF43972 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGPlaceholders_Example/Pods-HGPlaceholders_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB6F592496079CAC751605D0 /* [CP] Check Pods Manifest.lock */ = {
@@ -408,7 +376,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HGPlaceholders_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-leetal-HGPlaceholders_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -444,7 +412,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* HGPlaceholders_Example */;
+			target = 607FACCF1AFB9204008FA782 /* leetal-HGPlaceholders_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +542,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 576F9853BBED6C018D85C27A /* Pods-HGPlaceholders_Example.debug.xcconfig */;
+			baseConfigurationReference = 4B777433CD833A512E84DFED /* Pods-leetal-HGPlaceholders_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 738L2YDSVX;
@@ -589,7 +557,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 665F8E8E336FB2C3FF9CC5BB /* Pods-HGPlaceholders_Example.release.xcconfig */;
+			baseConfigurationReference = 6C519B976C4AA82BC97D071C /* Pods-leetal-HGPlaceholders_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 738L2YDSVX;
@@ -604,7 +572,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 980B22E971009A9561037888 /* Pods-HGPlaceholders_Tests.debug.xcconfig */;
+			baseConfigurationReference = 38A1B8FCCEA227BE107C52C5 /* Pods-leetal-HGPlaceholders_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 738L2YDSVX;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -621,7 +589,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 089FFFAA5455B1FAC176F3A6 /* Pods-HGPlaceholders_Tests.release.xcconfig */;
+			baseConfigurationReference = D79EA594EFF1194C5EBF8A33 /* Pods-leetal-HGPlaceholders_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 738L2YDSVX;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -635,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HGPlaceholders" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "leetal-HGPlaceholders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -644,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HGPlaceholders_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "leetal-HGPlaceholders_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -653,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HGPlaceholders_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "leetal-HGPlaceholders_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

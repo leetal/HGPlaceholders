@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HGPlaceholders
+import leetal_HGPlaceholders
 
 private let reuseIdentifier = "Cell"
 

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "HGPlaceholders_Example.app"
-               BlueprintName = "HGPlaceholders_Example"
-               ReferencedContainer = "container:HGPlaceholders.xcodeproj">
+               BuildableName = "leetal-HGPlaceholders_Example.app"
+               BlueprintName = "leetal-HGPlaceholders_Example"
+               ReferencedContainer = "container:leetal-HGPlaceholders.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "HGPlaceholders_Tests.xctest"
-               BlueprintName = "HGPlaceholders_Tests"
-               ReferencedContainer = "container:HGPlaceholders.xcodeproj">
+               BuildableName = "leetal-HGPlaceholders_Tests.xctest"
+               BlueprintName = "leetal-HGPlaceholders_Tests"
+               ReferencedContainer = "container:leetal-HGPlaceholders.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "HGPlaceholders_Tests.xctest"
-               BlueprintName = "HGPlaceholders_Tests"
-               ReferencedContainer = "container:HGPlaceholders.xcodeproj">
+               BuildableName = "leetal-HGPlaceholders_Tests.xctest"
+               BlueprintName = "leetal-HGPlaceholders_Tests"
+               ReferencedContainer = "container:leetal-HGPlaceholders.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "HGPlaceholders_Example.app"
-            BlueprintName = "HGPlaceholders_Example"
-            ReferencedContainer = "container:HGPlaceholders.xcodeproj">
+            BuildableName = "leetal-HGPlaceholders_Example.app"
+            BlueprintName = "leetal-HGPlaceholders_Example"
+            ReferencedContainer = "container:leetal-HGPlaceholders.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "HGPlaceholders_Example.app"
-            BlueprintName = "HGPlaceholders_Example"
-            ReferencedContainer = "container:HGPlaceholders.xcodeproj">
+            BuildableName = "leetal-HGPlaceholders_Example.app"
+            BlueprintName = "leetal-HGPlaceholders_Example"
+            ReferencedContainer = "container:leetal-HGPlaceholders.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "HGPlaceholders_Example.app"
-            BlueprintName = "HGPlaceholders_Example"
-            ReferencedContainer = "container:HGPlaceholders.xcodeproj">
+            BuildableName = "leetal-HGPlaceholders_Example.app"
+            BlueprintName = "leetal-HGPlaceholders_Example"
+            ReferencedContainer = "container:leetal-HGPlaceholders.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

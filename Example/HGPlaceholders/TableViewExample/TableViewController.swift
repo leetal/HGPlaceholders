@@ -8,7 +8,7 @@
 
 import UIKit
 
-import HGPlaceholders
+import leetal_HGPlaceholders
 
 class ViewController: UITableViewController {
     

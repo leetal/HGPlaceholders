@@ -6,7 +6,7 @@
 //  Copyright © 2017 CocoaPods. All rights reserved.
 //
 
-import HGPlaceholders
+import leetal_HGPlaceholders
 
 class ExampleTableViewCell: PlaceholderTableViewCell {
 

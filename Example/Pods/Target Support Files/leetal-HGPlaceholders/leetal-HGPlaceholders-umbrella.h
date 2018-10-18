@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_HGPlaceholders_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_HGPlaceholders_TestsVersionString[];
+FOUNDATION_EXPORT double leetal_HGPlaceholdersVersionNumber;
+FOUNDATION_EXPORT const unsigned char leetal_HGPlaceholdersVersionString[];
 

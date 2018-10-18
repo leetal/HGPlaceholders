@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Inn-UG-Y2D">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Inn-UG-Y2D">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,7 +38,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LMM-dP-dwI">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -112,7 +112,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dQ9-MY-0VG">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -171,7 +171,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Hi-nD-8Sm">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -245,7 +245,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Isg-ZW-qNr">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -319,7 +319,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9jw-kP-asW">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="tableView">
@@ -393,7 +393,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lwz-Mx-STr">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="/* From XIB */">
@@ -501,7 +501,7 @@ tableView</string>
         <scene sceneID="Hyg-HC-n4g">
             <objects>
                 <collectionViewController id="cWY-e2-k1d" customClass="CollectionViewController" customModule="HGPlaceholders_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="uLL-L9-RM0" customClass="CollectionView" customModule="HGPlaceholders">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="uLL-L9-RM0" customClass="CollectionView" customModule="leetal_HGPlaceholders">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -537,7 +537,7 @@ tableView</string>
                                     <outlet property="titleLabel" destination="hra-aZ-nFJ" id="uMW-yY-AQL"/>
                                 </connections>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomPlaceholderCell" id="U2D-XM-gGF" userLabel="XibCell" customClass="PlaceholderCollectionViewCell" customModule="HGPlaceholders">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomPlaceholderCell" id="U2D-XM-gGF" userLabel="XibCell" customClass="PlaceholderCollectionViewCell" customModule="leetal_HGPlaceholders">
                                 <rect key="frame" x="225" y="50" width="150" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -589,7 +589,7 @@ tableView</string>
                 <navigationController id="NkB-36-gyv" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="TableView" image="list" id="8us-pn-xtR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0RU-hv-rvj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -606,7 +606,7 @@ tableView</string>
                 <navigationController id="ahD-ed-B4V" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="CollectionView" image="collection" id="mS4-MD-C7e"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xi9-Mw-OZJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

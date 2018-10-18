@@ -1,0 +1,6 @@
+framework module leetal_HGPlaceholders {
+  umbrella header "leetal-HGPlaceholders-umbrella.h"
+
+  export *
+  module * { export * }
+}

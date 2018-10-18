@@ -1,10 +1,10 @@
 use_frameworks!
 platform :ios, '9.0'
 
-target 'HGPlaceholders_Example' do
-  pod 'HGPlaceholders', :path => '../'
+target 'leetal-HGPlaceholders_Example' do
+  pod 'leetal-HGPlaceholders', :path => '../'
 
-  target 'HGPlaceholders_Tests' do
+  target 'leetal-HGPlaceholders_Tests' do
     inherit! :search_paths
 
     

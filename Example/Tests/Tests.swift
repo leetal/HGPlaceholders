@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import HGPlaceholders
+import leetal_HGPlaceholders
 
 class Tests: XCTestCase {
     
